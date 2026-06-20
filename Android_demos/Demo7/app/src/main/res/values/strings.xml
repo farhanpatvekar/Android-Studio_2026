@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Demo7</string>
+    <string name="enter_the_username">Enter the username</string>
+    <string name="enter_the_password">Enter the password</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">ok</string>
+    <string name="dialog_way_one">Dialog way one</string>
+    <string name="custom_dialog_way_1">Custom dialog way 1</string>
+    <string name="custom_dialog_way_2">Custom Dialog Way 2</string>
+    <string name="custom_dialog_way_3">Custom Dialog way 3</string>
+    <string name="dialogway2">Custom dialog way 2</string>
+</resources>
