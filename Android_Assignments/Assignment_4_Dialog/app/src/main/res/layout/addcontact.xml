@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="325dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/dialog_style"
+
+        android:text="@string/add_contact"
+        android:textAlignment="center"
+
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/dialog_style"
+            android:layout_weight="1"
+            android:hint="@string/enter_contact_name"
+            android:id="@+id/nameEditText"
+            android:inputType="textPersonName"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/dialog_style"
+            android:layout_weight="1"
+            android:hint="@string/enter_contact_number"
+            android:id="@+id/numberEditText"
+            android:inputType="phone"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            style="@style/dialog_style"
+            android:textAlignment="center"
+            android:text="@string/dismiss"
+            android:id="@+id/dimissBtn"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            style="@style/dialog_style"
+            android:textAlignment="center"
+            android:text="@string/next"
+            android:id="@+id/nextBtn"
+            android:textSize="20sp"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

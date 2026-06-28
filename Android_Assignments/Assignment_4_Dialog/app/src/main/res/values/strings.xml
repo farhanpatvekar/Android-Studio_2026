@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Assignment_4_Dialog</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="enter_contact_name">Enter contact name</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="next">Next</string>
+    <string name="contacts">Contacts</string>
+    <string name="add_contact_icon">+</string>
+    <string name="enter_contact_number">enter contact number</string>
+</resources>
