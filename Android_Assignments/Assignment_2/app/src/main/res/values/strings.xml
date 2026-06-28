@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Assignment_2</string>
+    <string name="apple">Apple</string>
+    <string name="samsung">Samsung\n</string>
+    <string name="vivo">Vivo</string>
+    <string name="oppo">Oppo</string>
+</resources>

@@ -1,0 +1,43 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="149dp"
+        android:layout_height="152dp"
+        style="@style/custom_1"
+        android:id="@+id/imageOne"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="87dp"/>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageTwo"
+        android:layout_width="149dp"
+        style="@style/custom_2"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_height="152dp"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="87dp"/>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="149dp"
+        android:layout_height="152dp"
+        android:id="@+id/imageThree"
+        style="@style/custom_1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageOne"/>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="149dp"
+        android:layout_height="152dp"
+        android:id="@+id/imageFour"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageTwo"
+        style="@style/custom_2"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
