@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="wlcomeTextView" type="id">btnSecond</item>
+    <item name="welcomeTextView" type="id">welcomeTextView</item>
+    <item name="edtUsername" type="id">editUsername</item>
+    <item name="edtPassword" type="id">edtPassword</item>
+    <item name="btnLogin" type="id">btnLogin</item>
+</resources>
