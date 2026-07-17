@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Assignment_RecyclerView</string>
+    <string name="home">Home</string>
+    <string name="cart">Cart</string>
+    <string name="about">About</string>
+    <string name="add_to_cart">Add to cart</string>
+</resources>
