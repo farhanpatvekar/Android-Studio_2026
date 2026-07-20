@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Machine_task_dialog</string>
+    <string name="upper_case">Upper case</string>
+    <string name="lower_case">Lower case</string>
+    <string name="reverse">Reverse</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="click_for_name_dialog">Click for name dialog</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+</resources>
