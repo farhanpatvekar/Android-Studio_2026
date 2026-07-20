@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtName"
+        style="@style/custom_1"
+        android:textSize="30sp"
+        android:layout_marginTop="80dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioUpperCase"
+            style="@style/custom_1"
+            android:text="@string/upper_case"
+            android:textSize="20sp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioLowerCase"
+            style="@style/custom_1"
+            android:text="@string/lower_case"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkReverse"
+        style="@style/custom_1"
+        android:text="@string/reverse"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/onSave"
+            style="@style/custom_1"
+            android:text="@string/save"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/onCancel"
+            android:textSize="20sp"
+            android:text="@string/cancel"
+            style="@style/custom_1"/>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
