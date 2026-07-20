@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">machine_task_ImageDialog</string>
+    <string name="btnopenimagedialog">btnOpenImageDialog</string>
+    <string name="close">Close</string>
+</resources>
