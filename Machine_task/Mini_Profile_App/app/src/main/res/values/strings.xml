@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MIni_Prodile_App</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_your_age">Enter your age</string>
+    <string name="save">Save</string>
+    <string name="display">Display</string>
+    <string name="clear">Clear</string>
+    <string name="name">Name : </string>
+    <string name="age">Age : </string>
+</resources>
