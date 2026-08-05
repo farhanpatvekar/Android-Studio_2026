@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "328049327408",
+    "project_id": "intership-project-b5dec",
+    "storage_bucket": "intership-project-b5dec.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328049327408:android:c85d0898db5bf4edabdcf5",
+        "android_client_info": {
+          "package_name": "com.example.intershipproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_xn2gzeXQ5G4UR0KogCXo1W4MO1G4n08"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

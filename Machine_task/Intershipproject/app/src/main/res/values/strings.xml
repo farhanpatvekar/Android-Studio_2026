@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">InternshipProject</string>
+
+    <string name="fitnexa">FitNexa</string>
+    <string name="search">Search</string>
+    <string name="exercise">Exercise</string>
+    <string name="diet">Diet</string>
+    <string name="bmi_calculator">BMI Calculator</string>
+    <string name="height_cm">Height (cm)</string>
+    <string name="weight_kg">Weight (kg)</string>
+    <string name="calculate">Calculate</string>
+    <string name="bmi">BMI : --</string>
+    <string name="category">Category : --</string>
+    <string name="water_intake">Water Intake : --</string>
+    <string name="recommendation">Recommendation : --</string>
+</resources>
