@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BMI Calculator"
+            android:textSize="40sp"
+            android:layout_marginLeft="50dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:textColor="#B8FF1A"/>
+
+        <!-- Height -->
+
+        <EditText
+            android:id="@+id/etHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Height"
+            android:inputType="numberDecimal"
+            android:textSize="25sp"
+            android:textColor="#B8FF1A"
+            android:textColorHint="#B8FF1A"/>
+
+        <!-- Weight -->
+
+        <EditText
+            android:id="@+id/etWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Weight"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="12dp"
+            android:textSize="25sp"
+            android:textColor="#B8FF1A"
+            android:textColorHint="#B8FF1A"/>
+
+        <!-- Button -->
+
+        <Button
+            android:id="@+id/btnCalculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#B8FF1A"
+            android:textColor="@color/black"
+            android:textSize="30sp"/>
+
+        <!-- Result -->
+
+        <TextView
+            android:id="@+id/tvBMI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BMI :--"
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:textColor="#B8FF1A"
+            android:layout_marginTop="24dp"/>
+
+        <TextView
+            android:id="@+id/tvCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category:--"
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:layout_marginTop="10dp"
+            android:textColor="#B8FF1A"/>
+
+        <TextView
+            android:id="@+id/tvWater"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Water Intake :--"
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:layout_marginTop="10dp"
+            android:textColor="#B8FF1A"/>
+
+        <TextView
+            android:id="@+id/tvAdvice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recommendation :--"
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:layout_marginTop="10dp"
+            android:textColor="#B8FF1A"/>
+
+    </LinearLayout>
+
+</ScrollView>
